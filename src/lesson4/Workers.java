@@ -33,11 +33,5 @@ public class Workers {
         return age;
     }
 
-
-    String infoWorker (){
-       return this.name + "_" + this.position + "_" +
-               this.phoneNumber + "_" + this.wage + "_" +
-               this.age;
-    }
-
+    
 }
