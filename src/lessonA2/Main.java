@@ -12,8 +12,8 @@ public class Main {
         public static void main(String[] args) {
 
             Able [] participants = {new Cat(), new Man(), new Robot()};
-            Obstacle [] obstacles = {new Wall(2), new RunTrack(1000),
-                    new Wall(3), new RunTrack(1500), new Wall(15)};
+            Obstacle [] obstacles = {new Wall(1), new RunTrack(1000),
+                    new Wall(3), new RunTrack(1500), new Wall(12)};
 
             for(Obstacle obstacle: obstacles) {
                 System.out.println(obstacle);
